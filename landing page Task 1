@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORAL BEAUTY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles2.css">
+    </head>
+<!-- navigation bar-->
+<header>
+    <section class="nav">
+<nav> 
+        <div class="menu ">
+        <p class="logo ">FLORAL BEAUTY</p>
+            <a href="#"class="border" >HOME </a>
+            <a href="#" class="border">ABOUT US </a>
+            <a href="#" class="border">BRANDS</a>
+            <a href="#"class="border" >PRODUCTS</a>
+        </div>
+    </nav>
+    </section>
+</header>
+<!--hero-content-->
+    <div class="hero-section">
+        <div class="box-1">
+            <div class="box-content">
+                <h2>MAKEUP PRODUCTS</h2>
+                <div class="box-img" >
+                    <img src="download(1).jpg">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>SKINACRE</h2>
+                <div class="box-img" >
+                    <img src="glow.webp">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>FASHION TRENDS</h2>
+                <div class="box-img" >
+                    <img src="myntra-la-la.jpg">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>FUSION</h2>
+                <div class="box-img" >
+                    <img src="afef (1).jpg">
+                </div>
+                
+            </div>
+        </div>
+           <div class="hero-section">
+        <div class="box-1">
+            <div class="box-content">
+                <h2>Jwellery</h2>
+                <div class="box-img" >
+                    <img src="jwe.jpg">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>BAGS</h2>
+                <div class="box-img" >
+                    <img src="images (2).jpg">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>FOOTWEAR</h2>
+                <div class="box-img" >
+                    <img src="tre.jpg">
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-content">
+                <h2>BEST OF BATH </h2>
+                <div class="box-img" >
+                    <img src="317.jpg">
+                </div>
+               
+            </div>
+        </div>
+</div>       
+</div>
+<footer>
+    <div class="footer-pannel">
+    <div class="email">
+        <i class="fa-solid fa-envelope"></i>Enter Your  email for dicount</p><input type="email">
+        <button>Send</button>
+    </div>
+        <div class="contact-us">
+            <p>    <i class="fa-solid fa-phone"></i> FOR ANY HELP, YOU MAY CALL US AT<a href="#" class="dimag">1800-267-4444</a> </p> 
+                (Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)
+        </div>
+       </div>
+    <div class="thank-you">
+    THANK YOU
+    </div>
+   
+</footer>
+      </body>
+        
+</html>
+
+
+
+
+
+//CSS
+
+*{
+    background-color:#FAF3F0;
+}
+nav{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#BA90C6;
+        color:black;
+        height: 65px;
+        padding: 10px;
+        font-size: 25px;
+        margin:10px;
+        
+
+}
+.menu{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a{
+    display:flex;
+    color:indianred;
+    flex-direction:column ;
+    margin-top:20px;
+    margin-right:40px;
+    text-decoration: none;
+}
+.logo{
+background-image: url(images.jpg);
+margin-right:450px;
+font-family: 'Dancing Script', cursive;
+height:100%;
+background-size:cover;
+display:flex;
+margin-bottom:12px;
+
+
+}
+a:hover{
+    color:rgb(253, 10, 50);
+    border:2px 
+}
+.box-img img{
+   height:250px;
+   width:250px;
+   border-radius:8px;
+}
+.hero-section{
+    display:flex;
+    margin:10px;
+    font-family: 'Courgette', cursive;
+    flex-wrap:wrap;
+    border:8px black;
+}
+.box-1{
+    margin:30px;
+    height:300px;
+    background-color:plum ;
+}
+.box-content h2{
+    font-family: 'Courgette', cursive;
+    color:purple;
+}
+.box-content h2:hover{
+    color:rgb(68, 2, 68);
+}
+.box-img img:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.dimag:hover{
+    text-decoration: underline;
+}
+.footer-pannel{
+    display: flex;
+}
+.contact-us{
+    margin-left:700px;
+}
+.email button{
+    background-color:purple;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+.email i{
+    margin:10px;
+}
+.thank-you{
+    font-size:2em;
+    color:whitesmoke;
+    background-color:#BA90C6;
+    width:100%;
+    height:50px;
+    align-items:center;
+    font-family: 'Indie Flower', cursive;
+  
+}
+.border{
+    border:1.3px solid transparent;
+    height:40px;
+  }
+.border:hover{
+    border:4px solid purple;
+}
