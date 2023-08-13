@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofilo</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <!--Nav-bar-->
+    <header>
+        <div class="nav">
+            <div class="nav-contents">
+            <p>About</p>
+            <p>Projects</p>
+            <p>Contact</p>
+        </div>
+        </div>
+    </header>
+<!--welcome section-->
+
+<div class="welcome-section">
+
+    <p>Hey! I am Taijsi..</p>
+<h2>Cuurently pursuing Diploma in computer science and engineering from Delhi Skill and Entreprenuership University(DSEU) and cuurently a 
+    Web development intern at CODESOFT.
+</h2>
+</div>
+<!--Project section-->
+<section  id="projects" class="projects-section">
+    <h2 class="projects-section header">These are some of  my Projects</h2>
+<div class="projects-grid">
+        <a
+          href="https://www.linkedin.com/posts/taijsi-thakur_connections-activity-7086974801470271488-pHmx?utm_source=share&utm_medium=member_desktop"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="Screenshot (25).png"
+            alt="project"
+          />
+          <p class="project-title">
+            Amazon clone
+          </p>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/posts/taijsi-thakur_today-i-completed-my-task-1-a-landing-page-activity-7092852691009191936-a6aq?utm_source=share&utm_medium=member_desktop"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="Screenshot (24).png"
+            alt="project"
+          />
+          <p class="project-title">
+          Landing Page
+          
+          </p>
+        </a>
+
+        <a
+        href="https://www.linkedin.com/posts/taijsi-thakur_today-i-completed-my-second-project-ie-activity-7091323844254154752-2GNx?utm_source=share&utm_medium=member_desktop"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="Screenshot (21).png"
+          alt="project"
+        />
+        <p class="project-title">
+         
+      Netflix clone
+          
+        </p>
+      </a>
+
+      <a
+      href="https://www.linkedin.com/posts/taijsi-thakur_today-i-learnt-about-typography-in-css-activity-7091765513680302080-ru2x?utm_source=share&utm_medium=member_desktop"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="Screenshot (22).png"
+        alt="project"
+      />
+      <p class="project-title">
+        
+        Nutrition label
+       
+      </p>
+    </a>
+
+</div>
+</div>
+</section>
+<!--PROJECT SECTION-->
+
+<section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+    <div class="contact-links">
+     
+      <a
+        id="profile-link"
+        href="https://github.com/Taijsi"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fa-brands fa-github"></i></i> GitHub</a
+      >
+      <a
+      id="profile-link"
+      href="https://www.linkedin.com/in/taijsi-thakur/"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fa-brands fa-linkedin"></i></i>Linkedin</a
+    >
+      <a href="taijsithakur@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+      >
+      <a href="tel:555-555-5555" class="btn contact-details"
+        ><i class="fas fa-mobile-alt"></i> Call me</a
+      >
+    </div>
+  </section>
+
+</body>
+</html>
+css 
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(153, 6, 6);
+    color:black;
+    height: 65px;
+    padding: 10px;
+top:0;
+left:0;
+position: fixed;
+width:100%;
+}
+.nav-contents{
+    display: flex;
+    margin-left:800px;
+    color:white;
+    
+}
+.nav-contents p{
+    margin-left:2rem;
+    padding:10px;
+    font-size:2rem;
+    font-weight: 100;
+}
+.nav-contents p:hover{
+    background-color: rgb(134, 134, 233);
+    border-radius:10px;
+}
+main{
+    background-color:rgb(83, 56, 56);
+    width:100%;
+    height:1000px;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  .welcome-section >p{
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    color:white;
+    text-decoration: underline;
+  }
+  .welcome-section >h2{
+    color:red;
+    font-size:1.6rem;;
+    font-style:initial;
+    font-weight:0;
+    margin-left:30px;
+  }
+
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+    background-color: rgb(128, 128, 240);
+
+  }
+  .projects-section>h2{
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color:white;
+    text-decoration: underline;
+    margin:0;
+    margin-top:0;
+  }
+ .projects-grid{
+    display:grid;
+    grid-gap:2rem;
+    grid-template-columns: repeat(2,1fr);
+  
+ }
+ img{
+    width:600px;
+ }
+ .project-title{
+    background-color: #3a3d40;
+    color:white;
+    width:600px;
+    height:50px;
+    font-size:2rem;
+    align-items: center;
+display:grid;
+font-weight:400;
+text-decoration:none;
+ }
+ .project-title:hover{
+    color:antiquewhite;
+    text-decoration: underline;
+ }
+ .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color:rgb(247, 237, 237);
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
+  .contact-section-header > p {
+    font-style: italic;
+    font-size:2rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    margin:10px;
+    color:blue;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  
